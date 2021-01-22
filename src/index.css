@@ -23,7 +23,16 @@ button {
   color: #ccc;
   font-size: 1.2em;
   cursor: pointer;
+  outline: none;
 }
+button:hover {
+  color: #fff;
+  border-color: #fff;
+}
+button:active {
+  transform: translateY(2px);
+}
+
 button:hover {
   color: #fff;
   border-color: #fff;
